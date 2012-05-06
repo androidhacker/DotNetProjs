@@ -49,25 +49,18 @@
     <Compile Include="Reco\SoundRecognition.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="CLAP\CLAP\CLAP.csproj">
+    <ProjectReference Include="..\..\Libs\CLAP\CLAP\CLAP.csproj">
       <Project>{AE79CD7B-DFFC-4156-913E-63F70A31B7C1}</Project>
       <Name>CLAP</Name>
     </ProjectReference>
-    <ProjectReference Include="CUETools.Codecs.FLAKE\CUETools.Codecs.FLAKE.csproj">
+    <ProjectReference Include="..\..\Libs\cuetoolsnet\CUETools.Codecs.FLAKE\CUETools.Codecs.FLAKE.csproj">
       <Project>{082D6B9E-326E-4D15-9798-EDAE9EDE70A6}</Project>
       <Name>CUETools.Codecs.FLAKE</Name>
     </ProjectReference>
-    <ProjectReference Include="CUETools.Codecs\CUETools.Codecs.csproj">
+    <ProjectReference Include="..\..\Libs\cuetoolsnet\CUETools.Codecs\CUETools.Codecs.csproj">
       <Project>{6458A13A-30EF-45A9-9D58-E5031B17BEE2}</Project>
       <Name>CUETools.Codecs</Name>
     </ProjectReference>
-    <ProjectReference Include="Newtonsoft.Json\Newtonsoft.Json.csproj">
-      <Project>{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}</Project>
-      <Name>Newtonsoft.Json</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
