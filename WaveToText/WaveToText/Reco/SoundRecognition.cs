@@ -8,7 +8,6 @@ using CUETools.Codecs.FLAKE;
 //thanks to  Lukasz Kwiecinski, Istrib for his article and source code http://www.codeproject.com/KB/audio-video/Mp3SoundCapture.aspx
 //thanks to Alexander Yakhnev for the article http://habrahabr.ru/blogs/google/117234/  and source code http://startup-news.ru/data/habrGoogleSpeech.zip
 
-
 namespace SpeechRecognizer
 {
     public static class SoundRecognition
