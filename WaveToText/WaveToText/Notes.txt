@@ -1,0 +1,3 @@
+﻿2012.5.6
+basic reco in command line like below
+C:\MyProjs\DotNetProjs\WaveToText\WaveToText\bin\Debug\WaveToText.exe d -l=zh-CN -w=2.wav
